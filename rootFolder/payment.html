@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Payment Page</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="..\cssFolder\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- JavaScript Files -->
+    <script src="..\jsFolder\cardCheck.js"></script>
+    <script src="../jsFolder/nav.js"></script>
+</head>
+<body>
+    <!-- Page Container -->
+    <div id="container">
+        <!-- Navigation Bar -->
+        <div id="nav" class="navBar">
+            <a href="index.html">Home</a>
+            <a href="#">Contact Us</a>
+            <a href="#">About Us</a>
+            <a href="javascript:void(0);" class="icon" onclick="show()"><i class="fa fa-reorder"></i></a>
+        </div>
+
+        <!-- Main Content -->
+        <main>
+            <div id="payment">
+                <!-- Payment Form -->
+                <form>
+                    <label for="cardholder-name" id="Cname">Cardholder Name</label>
+                    <input type="text" id="name" name="cardholder-name" required>
+                    <span id="nameError" style="color: red"></span><br>
+
+                    <label for="card-number">Card Number</label>
+                    <input type="text" id="cardNumber" name="card-number" required>
+                    <span id="numberError" style="color: red"></span><br>
+
+                    <label for="expiration-date">Expiration Date</label>
+                    <input type="month" id="expDate" name="expiration-date" required>
+                    <span id="dateError" style="color: red"></span><br>
+
+                    <label for="securityCode">CVV</label>
+                    <input type="text" id="cvv" required>
+                    <span id="cvvError" style="color: red"></span><br>
+
+                    <button type="submit" id="pay">Pay</button>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <!-- Products -->
+            <div class="products">
+                <h3>Products</h3>
+                <ul>
+                    <li><a href="#">Science Fiction</a></li>
+                    <li><a href="#">Mystery & Thriller</a></li>
+                    <li><a href="#">Romance</a></li>
+                    <li><a href="#">Fantasy</a></li>
+                    <li><a href="#">Horror</a></li>
+                    <li><a href="#">Shonen Manga</a></li>
+                    <li><a href="#">Seinen Manga</a></li>
+                    <li><a href="#">Shojo Manga</a></li>
+                </ul>
+            </div>
+
+            <!-- About Us -->
+            <div class="about-us">
+                <h3>About Us</h3>
+                <p>Address: 23 BookStore Road</p>
+                <p>Phone: 0712387813323</p>
+                <p>Email: GenericBookStore@Gmail.com</p>
+            </div>
+        </div>
+        <p>&copy; GenericBookStore. All Rights Reserved.</p>
+      </footer>
+  </body>
+  </html>
+  

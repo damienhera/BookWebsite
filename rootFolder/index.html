@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Book Shop</title>
+    <!-- Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Importing Font Awesome library -->
+    <link rel="stylesheet" type="text/css" href="..\cssFolder\style.css" />
+    <!-- JavaScript Files -->
+    <script src="../jsFolder/nav.js"></script>
+  </head>
+  <body>
+    <!-- Page Container -->
+    <div id="container">
+      <!-- Nav Bar -->
+      <div id="nav" class="navBar">
+        <a href="#" class="active">Home</a>
+        <a href="#">Contact Us</a>
+        <a href="#">About Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="show()"
+          ><i class="fa fa-reorder"></i
+        ></a>
+      </div>
+
+      <!-- Main -->
+      <main class="grid">
+        <!-- Product Grid -->
+        <section>
+          <div class="product">
+            <!-- Class Product-->
+            <h2>The Silmarillion</h2>
+            <!--Product Name-->
+            <img src="..\imageFolder\book.png" alt="book" />
+            <p id="description">
+              The Silmarillion: A masterful work of fantasy literature that
+              tells the history of Middle-earth, from its creation to the epic
+              battles between good and evil. The book weaves together tales of
+              Elves, Men, and Dwarves, and explores the complex mythology of the
+              god-like Valar. It is a rich and powerful narrative that offers a
+              glimpse into the depth and beauty of J.R.R. Tolkien's imagination.
+            </p>
+            <br />
+            <p id="price">Price: £5.00</p>
+
+            <a href="payment.html"
+              ><!--Payment Page-->
+              <button>Buy</button>
+            </a>
+          </div>
+        </section>
+        <!--Same Elements repeated through each product-->
+        <section>
+          <div class="product">
+            <h2>The Hobbit</h2>
+            <img src="..\imageFolder\theHobbit.png" alt="book" />
+            <p id="description">
+              The Hobbit: Bilbo Baggins, a contented hobbit, is recruited by a
+              group of dwarves and a wizard to accompany them on a dangerous
+              journey to reclaim their lost treasure from the fearsome dragon,
+              Smaug. Along the way, they encounter various obstacles and
+              enemies, and Bilbo discovers his inner strength and heroism. The
+              novel is a timeless classic of fantasy literature.
+            </p>
+            <br />
+            <p id="price">Price: £6.50</p>
+
+            <a href="payment.html">
+              <button>Buy</button>
+            </a>
+          </div>
+        </section>
+
+        <section>
+          <div class="product">
+            <h2>Dune</h2>
+            <img src="..\imageFolder\DuneR.png" alt="book" />
+            <p id="description">
+              Dune: Set in a distant future, the novel follows the power
+              struggle between noble houses and factions vying for control over
+              the desert planet Arrakis, which is the only source of the
+              valuable spice Melange. Amidst political intrigue and religious
+              conflict, a young man named Paul Atreides must confront his fate
+              as a messianic figure and lead a rebellion against the oppressive
+              rulers of Arrakis.
+            </p>
+            <br />
+            <p id="price">Price: £7.00</p>
+
+            <a href="payment.html">
+              <button>Buy</button>
+            </a>
+          </div>
+        </section>
+
+        <section>
+          <div class="product">
+            <h2>Ender's Game</h2>
+            <img src="..\imageFolder\EndersR.png" alt="book" />
+            <p id="description">
+              Ender's Game: In a future where humanity is at war with an alien
+              race, a gifted child named Ender Wiggin is selected to attend a
+              military academy to prepare for a pivotal battle. Ender faces
+              intense physical and psychological challenges as he rises through
+              the ranks and becomes a brilliant strategist. The novel explores
+              themes of leadership, morality, and the costs of war.
+            </p>
+            <br />
+            <p id="price">Price: £5.00</p>
+
+            <a href="payment.html">
+              <button>Buy</button>
+            </a>
+          </div>
+        </section>
+
+        <section>
+          <div class="product">
+            <h2>Naruto</h2>
+            <img src="..\imageFolder\NarutoR.png" alt="book" />
+            <p id="description">
+              Naruto: The story of a young ninja named Naruto who is ostracized
+              by his village due to a dangerous fox spirit sealed inside him.
+              Determined to become the Hokage, Naruto trains hard and develops
+              strong bonds with his friends while fighting against powerful
+              enemies. The series explores themes of identity, family, and the
+              power of perseverance.
+            </p>
+            <br />
+            <p id="price">Price: £7.50</p>
+
+            <a href="payment.html">
+              <button>Buy</button>
+            </a>
+          </div>
+        </section>
+
+        <section>
+          <div class="product">
+            <h2>Gantz</h2>
+            <img src="..\imageFolder\GantzR.png" alt="book" />
+            <p id="description">
+              Gantz: After dying in a train accident, Kei Kurono and his friend
+              Masaru Kato are transported to a mysterious room to compete in a
+              deadly game where they must hunt and kill alien creatures to earn
+              points and the chance to return to life. Throughout each battle,
+              they discover the true nature of their situation and the secrets
+              behind the enigmatic Gantz.
+            </p>
+            <br />
+            <p id="price">Price: £7.50</p>
+
+            <a href="payment.html">
+              <button>Buy</button>
+            </a>
+          </div>
+        </section>
+
+        <section>
+          <div class="product">
+            <h2>Promised Neverland</h2>
+            <img src="..\imageFolder\PromisedR.png" alt="book" />
+            <p id="description">
+              The Promised Neverland: Emma, Norman, and Ray are orphans who live
+              in a seemingly idyllic orphanage. However, they soon discover that
+              the reality is far more sinister: they and their fellow orphans
+              are being raised as food for demons. The three plot to escape and
+              save their friends, but face constant danger and must use all
+              their wits to stay ahead of their captors.
+            </p>
+            <br />
+            <p id="price">Price: £5.00</p>
+
+            <a href="payment.html">
+              <button>Buy</button>
+            </a>
+          </div>
+        </section>
+
+        <section>
+          <div class="footer">
+            <h2>To Your Eternity</h2>
+            <img src="..\imageFolder\TYER.png" alt="book" />
+            <p id="description">
+              To Your Eternity: A shape-shifting entity is sent to Earth on a
+              journey of discovery. As it assumes various forms and encounters
+              different people, it learns about life, death, love, and loss, and
+              begins to appreciate the wonder and complexity of the world. The
+              series is a profound exploration of the human condition and the
+              nature of existence.
+            </p>
+            <br />
+            <p id="price">Price: £5.70</p>
+
+            <a href="payment.html">
+              <button>Buy</button>
+            </a>
+          </div>
+        </section>
+      </main>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <!-- Footer -->
+        <div class="products">
+          <!-- Products -->
+          <h3>Products</h3>
+          <ul>
+            <li><a href="#">Science Fiction</a></li>
+            <li><a href="#">Mystery & Thriller</a></li>
+            <li><a href="#">Romance</a></li>
+            <li><a href="#">Fantasy</a></li>
+            <li><a href="#">Horror</a></li>
+            <li><a href="#">Shonen Manga</a></li>
+            <li><a href="#">Seinen Manga</a></li>
+            <li><a href="#">Shojo Manga</a></li>
+          </ul>
+        </div>
+
+        <!-- About Us -->
+        <div class="about-us">
+          <h3>About Us</h3>
+          <p>Address: 23 BookStore Road</p>
+          <p>Phone: 0712387813323</p>
+          <p>Email: GenericBookStore@Gmail.com</p>
+        </div>
+      </div>
+      <p>&copy; GenericBookStore. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
